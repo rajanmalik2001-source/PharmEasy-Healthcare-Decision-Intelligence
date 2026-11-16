@@ -11,7 +11,7 @@ python -m venv .venv
 # Activate the environment:
 # Windows PowerShell: .venv\\Scripts\\Activate.ps1
 # macOS/Linux: source .venv/bin/activate
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 python generate_data.py
 python part1.py
 python part2.py
